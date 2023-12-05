@@ -1,0 +1,71 @@
+/* top bit */
+
+.smock-header-main {
+    background-color: black;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.smock-header-right {
+    background-color: black;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.smock-header-text {
+    font-size: 3rem;
+}
+
+.smock-header-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navlink {
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: blue;
+}
+
+
+/* main bit */
+
+main {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    border-color: black;
+}
+
+
+
+/* footer bit */
+
+/* other stuff */
+.center-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
